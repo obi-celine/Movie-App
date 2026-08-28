@@ -3,6 +3,7 @@ import Search from './components/Search';
 import Spinner from './components/Spinner';
 import MovieCard from './components/MovieCard';
 import { useDebounce } from 'react-use'; 
+import BackgroundPattern from '/hero-bg.png';
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
@@ -68,6 +69,7 @@ console.log('errorMessage:', errorMessage);
 return (
     <main>
       <div className='pattern'/>
+        <img src={BackgroundPattern} alt='Background Pattern' className='pattern' />
       <div className='wrapper'>
         <header>
          <img src={`/hero.png`} alt='Hero Banner' />
