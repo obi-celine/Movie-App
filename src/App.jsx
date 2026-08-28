@@ -64,7 +64,8 @@ fetchMovies(debouncedSearchTerm);
 console.log('movieList:', movieList);
 console.log('isLoading:', isLoading);
 console.log('errorMessage:', errorMessage);
-  
+console.log('errorMessage:', errorMessage);
+
 return (
     <main>
       <div className='pattern'/>
